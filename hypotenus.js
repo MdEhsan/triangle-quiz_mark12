@@ -14,7 +14,7 @@ function calculateHypotenus() {
    const sumOfSquares = squareOfSides(Number(userInput[0].value), Number(userInput[1].value));
 
    if(Number(userInput[0].value < 0) || Number(userInput[1].value < 0) ){
-       outputDiv.innerText = "Angles cannot be in less than zero"
+       outputDiv.innerText = "Sides cannot be in less than zero"
        outputDiv.style.color = "red"
 
 
