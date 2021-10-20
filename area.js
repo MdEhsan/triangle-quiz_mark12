@@ -15,7 +15,7 @@ function calculateArea() {
         secondSideValue === 0 || secondSideValue < 0 ||
         thirdSideValue === 0 || thirdSideValue < 0
     ) {
-        outputDiv.innerText = "angle field cannot be less than zero or empty"
+        outputDiv.innerText = "Side cannot be less than zero or empty"
         outputDiv.style.color = "red"
     } else if (
         firstSideValue + secondSideValue > thirdSideValue &&
